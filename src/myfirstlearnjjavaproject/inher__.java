@@ -1,21 +1,39 @@
 package myfirstlearnjjavaproject;
 
-public class inher__ {
-	
-    class Employee  
-    {    
-    float salary=34534*12;    
-    }    
-    public class Executive extends Employee  
-    {   
-    float bonus=3000*6;  
-   
-    Executive obj=new Executive();   
-    System.out.println("Total salary credited: "+obj.salary);    
-    System.out.println("Bonus of six months: "+obj.bonus);   
-     }}; 
-    
-	
+public class inher__{
+
+	// Java program to illustrate the
+	// concept of single inheritance
+	import java.io.*;
+	import java.lang.*;
+	import java.util.*;
+
+	// Parent class
+	class one {
+		public void print_geek()
+		{
+			System.out.println("Geeks");
+		}
+	}
+
+	class two extends one {
+		public void print_for() { System.out.println("for"); }
+	}
+
+	// Driver class
+	public class Main {
+		// Main function
+		public static void main(String[] args)
+		{
+			two g = new two();
+			g.print_geek();
+			g.print_for();
+			g.print_geek();
+		}
+	}
+
+
+}
 	
 	
 	

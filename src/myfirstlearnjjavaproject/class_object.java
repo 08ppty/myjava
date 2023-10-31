@@ -17,7 +17,7 @@ public class class_object {
 
 		static void get()
 		{
-			System.out.println("Software name is: " + sw_name);
+//			System.out.println("Software name is: " + sw_name);
 			System.out.println("Software price is: "
 							+ sw_price);
 		}
